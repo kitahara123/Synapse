@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Synapse
 {
@@ -8,5 +9,8 @@ namespace Synapse
     {
         public Sprite Sprite;
         public string Description;
+
+        public bool Shown { get; set; }
+        public int LastScreenIndex { get; set; }
     }
 }
